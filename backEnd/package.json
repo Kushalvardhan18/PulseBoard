@@ -4,11 +4,19 @@
   "description": "a full-stack platform where users can create polls, share them through a public link and collect feedback from others.",
   "main": "index.js",
   "scripts": {
-     "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "Kushal Vardhan",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2"
   }
 }
